@@ -2,6 +2,7 @@ import './App.css';
 import Header from './Components/Header/Header';
 import LearningCss from './Components/LearningCss';
 import SecondFile from './Components/SecondFile';
+import Thirdfile from './Components/Thirdfile';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
    <Header/>
    <LearningCss/>
    <SecondFile/>
+   <Thirdfile/>
     </div>
   );
 }
