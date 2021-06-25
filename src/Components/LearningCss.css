@@ -2,10 +2,23 @@
     background-color: greenyellow;
     border-radius: 25px;
     padding: 5px;
+
 }
 
 .afroz2{
     background-color: khaki;
     border-radius: 10px;
     padding: 10px;
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    float: right;
+    border: 5px solid red; 
+    background: royalblue;
+    box-shadow: 0 0 20px red;
+    background-image: url(../logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+    
+    
 }
