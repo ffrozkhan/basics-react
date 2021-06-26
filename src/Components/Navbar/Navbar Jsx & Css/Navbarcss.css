@@ -1,0 +1,14 @@
+.Navbarc{
+        padding: 20px;
+    /* text-align: left; */
+    cursor: pointer;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.Navbarc:hover {
+        color: deeppink;
+    border-bottom: 1px solid black;
+
+}
