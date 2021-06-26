@@ -6,6 +6,7 @@ class DemoClassCompChild extends Component {
             <div>
                 <h1> Taking Data From This Component's Parent </h1>
                 <p> This is {this.props.person} Learning and Development Centre </p>
+                <p> This is old practice used only for old projects  </p>
             </div>
         )
     }
