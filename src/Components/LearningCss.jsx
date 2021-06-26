@@ -12,6 +12,7 @@ const LearningCss=()=>{
             <h1 style={{color: "red"}}>  Learning Css in React JS </h1>
             <p style={stylePara}> Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam impedit laboriosam iste veniam libero esse harum illum voluptas facere tempora.</p>
             <p2 className="afroz">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, corporis.</p2>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, et. </p>
         </div>
     )
 }
