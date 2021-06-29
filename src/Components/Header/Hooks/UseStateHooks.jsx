@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 
 export const UseStateHooks =()=>{
-    const [data, setData]=useState(0);
+    const [data, setData]=useState("<===This is from Child===>");
     const [strData, SetStrData]=useState("This is a String");
 
 
