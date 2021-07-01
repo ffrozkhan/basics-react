@@ -13,7 +13,6 @@ function App() {
       <LearningCss />
       <SecondFile />
       <Thirdfile />
-      <Landing/>
     </div>
   );
 }

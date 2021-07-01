@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbarcss.css";
-import { Navbar, FormControl, Nav, } from "react-bootstrap";
+import { Navbar, FormControl, Nav, Button } from "react-bootstrap";
 
 const Navbarc = () => {
   return (
@@ -26,14 +26,10 @@ const Navbarc = () => {
         <div style={{marginLeft:"35rem"}}>
           <FormControl style={{ width: "20rem" }}  />
         </div>
-        {/* <Button>Search</Button> */}
+        <Button>Search</Button>
       </Navbar>
     </div>
   );
 };
 
 export default Navbarc;
-
-
- 
-

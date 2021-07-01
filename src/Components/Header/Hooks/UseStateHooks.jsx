@@ -1,14 +1,15 @@
 import React, {useState} from "react";
 
 export const UseStateHooks =()=>{
-    const [data, setData]=useState("<===This is from Child===>");
-    const [strData, SetStrData]=useState("This is a String");
-
-
-    console.log(data);
+    const [person, setPerson]=useState(0);
+    const handleAddition = () =>{
+        setPerson(person + 1);
+    };
     return(
         <div>
-            <h1>This is UseState Hook {strData}</h1>
+            <h2> {person} </h2>
+            <button onClick={handleAddition}>Increment</button>
+            <button onClick={()=> setPerson(person - 1)}>Decrement</button>
         </div>
 
     )
